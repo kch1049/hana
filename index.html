@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+    <!-- <link rel="stylesheet" href="./css/reset.css"> -->
+    <link rel="stylesheet" href="./css/reset.min.css">
+    <link rel="stylesheet" href="./css/swiper.css">
+    <!-- <link rel="stylesheet" href="./css/default.css"> -->
+    <link rel="stylesheet" href="./css/default.min.css">
+    <!-- <link rel="stylesheet" href="./css/index.css"> -->
+    <link rel="stylesheet" href="./css/index.min.css">
+    <title>하나성형외과</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <!-- <script src="./js/script.js"></script> -->
+    <script src="./js/script.min.js"></script>
+
+</head>
+<body>
+    <section id="wrap">
+        <header id="header">
+            <div class="container">
+                <div class="grid">
+                    <h1>
+                        <a href="./index.html">
+                            <span>하나성형외과</span>
+                            <picture>
+                                <source media="(min-width:768px)" srcset="./images/logo02.svg">
+                                <img src="./images/logo01.svg" alt="로고">
+                            </picture>
+                        </a>
+                    </h1>
+                    <nav>
+                        <ul>
+                            <li><a href="#">하나성형외과</a></li>
+                            <li><a href="#">수술시술</a></li>
+                            <li><a href="#">실시간상담</a></li>
+                            <li><a href="#">커뮤니티</a></li>
+                        </ul>
+                    </nav>
+                    <div class="lang">
+                        <select id="na-num">
+                            <option value="kr">대한민국</option>
+                            <option value="cn">중국</option>
+                            <option value="us">미국</option>
+                            <option value="jp">일본</option>
+                        </select>
+                        <div class="img-box">
+                            <img src="./images/flag_kr.svg" alt="대한민국">
+                        </div>
+                    </div>
+                    <div class="btn-nav" data-role="1">
+                        <span>내비게이션 버튼</span>
+                    </div>
+                </div>
+            </div>            
+        </header>
+        <section class="sec" id="sec01">
+            <div class="container">
+                <h2>이벤트 바로가기</h2>
+                <article class="art01">
+                    <div class="grid">
+                        <h3>Beautiful</h3>
+                        <p>[자신감]의 시작</p>
+                        <p>하나성형외과</p>
+                        <div class="img-box"><img src="./images/full-img01.png" alt="여름 이벤트"></div>
+                    </div>
+                </article>
+                <article class="art02">
+                    <div class="grid">
+                        <h3>Pretty</h3>
+                        <p>단골만 모여</p>
+                        <p>하나성형외과</p>
+                        <div class="img-box"><img src="./images/full-img02.png" alt="단골 이벤트"></div>
+                    </div>
+                </article>
+                <article class="art03">
+                    <div class="grid">
+                        <h3>Cute</h3>
+                        <p>북마크만 모여</p>
+                        <p>하나성형외과</p>
+                        <div class="img-box"><img src="./images/full-img03.png" alt="즐겨찾기 이벤트"></div>
+                    </div>
+                </article>
+                <div class="pager">
+                    <span>1</span>
+                    <span>2</span>
+                    <span>3</span>
+                </div>
+            </div>            
+        </section>
+        <section class="sec" id="sec02">
+            <div class="f-container">
+                <h2>실력은 하나의 기본입니다.</h2>
+                <p>
+                    하나성형외과는 믿음과 실력을 바탕으로<br>
+                    한분 한분의  말씀을 경청하고 더 좋은<br>
+                    결과를 위해 다양한 프로그램을 진행합니다.
+                </p>
+                <ul class="clearfix">
+                    <li class="prev-next">
+                        <div class="prev">앞으로</div>
+                        <div class="next">뒤로</div>
+                    </li>
+                    <li>
+                        <h3>눈성형</h3>
+                        <p>
+                            눈매, 쌍커플, 생활습관<br>
+                            까지 고려한 시술
+                        </p>
+                        <div class="img-box"><img src="./images/s2_img01.png" alt="눈성형"></div>
+                    </li>
+                    <li>
+                        <h3>입술성형</h3>
+                        <p>
+                            어느 각도에서나 아름<br>
+                            다운 입꼬리
+                        </p>
+                        <div class="img-box"><img src="./images/s2_img02.png" alt="입술성형"></div>
+                    </li>
+                    <li>
+                        <h3>코성형</h3>
+                        <p>
+                            얼굴 균형을 고려한<br>
+                            이상적인 맞춤 시술
+                        </p>
+                        <div class="img-box"><img src="./images/s2_img03.png" alt="코성형"></div>
+                    </li>
+                    <li>
+                        <h3>하악성형</h3>
+                        <p>
+                            사각턱, 주걱턱을<br>
+                            계란형으로
+                        </p>
+                        <div class="img-box"><img src="./images/s2_img04.png" alt="하악성형"></div>
+                    </li>                    
+                </ul>
+            </div>            
+        </section>
+        <section class="sec" id="sec03">
+            <div class="container">
+                <h2>하나성형외과만의 철학</h2>
+                <p>하나성형외과는 오로지 아름다움만을  추구합니다</p>
+                <ul>
+                    <li onclick="changeImg(this);">
+                        <img src="./images/s3-img01-1.jpg" alt="그림1-1">
+                        <img src="./images/s3-img01-2.jpg" alt="그림1-2">
+                    </li>
+                    <li onclick="changeImg(this);">
+                        <img src="./images/s3-img02-1.jpg" alt="그림2-1">
+                        <img src="./images/s3-img02-2.jpg" alt="그림2-2">
+                    </li>
+                    <li onclick="changeImg(this);">
+                        <img src="./images/s3-img03-1.jpg" alt="그림3-1">
+                        <img src="./images/s3-img03-2.jpg" alt="그림3-2">
+                    </li>
+                </ul>
+                <p>
+                    개개인의 얼굴형과 피부, 골격의 특성에 맞추어<br>
+                    조화로운 선택을 하실수 있도록 도와드립니다.
+                </p>
+            </div>            
+        </section>
+        <section class="sec clearfix" id="sec04">
+            <h2>비포 에프터 셀프후기</h2>
+            <article class="art" id="art01">
+                <div class="container">
+                    <div class="grid">
+                        <h3>
+                            <span>hana before & after</span>
+                            <span>hana b & a</span>
+                        </h3>
+                        <p>
+                            하나성형외과의 시술 결과를 확인해보세요
+                        </p>
+                        <ul class="clearfix">
+                            <li>
+                                <h4>login</h4>
+                            </li>
+                            <li>
+                                <h4>after</h4>
+                                <div class="img-box">
+                                    <img src="./images/s2_img01.png" alt="after image">
+                                </div>
+                            </li>
+                        </ul>
+                        <p><span>view more</span></p>
+                    </div>
+                </div>
+            </article>
+            <article class="art" id="art02">
+                <div class="container">
+                    <div class="grid">
+                        <h3>
+                            <span>hana selfie</span><span>hana selfie</span>                            
+                        </h3>
+                        <p>
+                            하나성형외과의 리얼 셀프후기
+                        </p>
+                        <ul>
+                            <li>
+                                <img src="./images/s5_img01.jpg" alt="img01">
+                            </li>
+                            <li>
+                                <img src="./images/s5_img02.jpg" alt="img02">
+                            </li>
+                            <li>
+                                <img src="./images/s5_img03.jpg" alt="img03">
+                            </li>
+                            <li>
+                                <img src="./images/s5_img04.jpg" alt="img04">
+                            </li>
+                            <li>
+                                <img src="./images/s5_img05.jpg" alt="img05">
+                            </li>
+                            <li>
+                                <img src="./images/s5_img06.jpg" alt="img06">
+                            </li>
+                        </ul>
+                        <p><span>view more</span></p>
+                    </div> 
+                </div>
+            </article>
+        </section>
+        <section class="sec" id="sec05">
+            <h2>contact us</h2>
+            <div class="container">
+                <h3>contact us</h3>              
+                <strong>인천광역시 서구 당하동 111-1, 5층</strong>
+                <p>인천지하철 2호선 완정역 2번출구</p>
+                <p>도보 5분 / 후면 주차장 사용가능</p>
+                <strong>TEL 032-564-2543</strong>
+                <p>평일 : 09:30 ~ 19:30 </p>
+                <p>토요일 : 09:30 ~ 15:00</p>
+                <p>일요일, 공휴일 휴진</p>
+                <div class="icons">
+                    <div class="img-box">
+                        <a href="#">
+                            <img src="./images/icon-face.svg" alt="face">
+                        </a>                        
+                    </div>
+                    <div class="img-box">
+                        <a href="#">
+                            <img src="./images/icon-inst.svg" alt="inst">
+                        </a>
+                    </div>
+                    <div class="img-box">
+                        <a href="#">
+                            <img src="./images/icon-twit.svg" alt="twit">
+                        </a>
+                    </div>
+                </div>
+                <div class="links">
+                    <a href="#">예약바로가기</a>
+                    <a href="#">의료진바로가기</a>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d25289.206481824374!2d126.68492535000001!3d37.59860955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sko!2skr!4v1687249345009!5m2!1sko!2skr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>            
+        </section>
+        <footer id="footer">
+            <div class="container">
+                <div class="grid">
+                    <h2>
+                        <a href="./index.html">
+                            <span>하나성형외과</span>
+                            <img src="./images/logo01-white.svg" alt="하나성형외과">
+                        </a>
+                    </h2>
+                    <nav>
+                        <ul>
+                            <li><a href="#">개인정보처리방침</a></li>
+                            <li><a href="#">사이트이용약관</a></li>
+                            <li><a href="#">오시는길</a></li>
+                            <li><a href="#">사이트맵</a></li>
+                        </ul>
+                    </nav>
+                    <address>
+                        <p>상호명 : 하나성형외과</p>
+                        <p class="hidden">대표 : 홍길동 </p>
+                        <p class="hidden">사업자번호 : 123-456-7890</p>
+                        <p>대표번호 : 032-123-4567</p>
+                        <p>주소 : 인천광역시 서구 당하동 111-1, 5층</p>
+                        <p>Copyright  HANA-cop 2023</p>
+                    </address>
+                </div>
+            </div>            
+        </footer>
+        <aside id="aside">
+            <h2>사이드 내비게이션</h2>  
+            <nav class="m-nav">
+                <img src="./images/side-nav-m.png" alt="모바일 내비게이션" usemap="#m-nav">
+                <map name="m-nav">
+                    <area shape="circle" coords="27,27,25" href="#" alt="카카오톡">
+                    <area shape="circle" coords="27,90,25" href="#" alt="온라인상담">
+                    <area shape="circle" coords="27,153,25" href="#" alt="오시는길">
+                    <area shape="circle" coords="27,214,25" href="#sec01" alt="위로">
+                </map>
+
+            </nav>
+            <nav class="nav">
+                <img src="./images/side-nav.png" alt="내비게이션" usemap="#nav">
+                <map name="nav">
+                    <area shape="rect" coords="0,0,57,64" href="#" alt="카카오톡">
+                    <area shape="rect" coords="0,134,57,187" href="#" alt="온라인상담">
+                    <area shape="rect" coords="0,259,57,318" href="#" alt="오시는길">
+                    <area shape="rect" coords="0,388,57,447" href="#sec01" alt="위로">
+                </map>
+            </nav>
+        </aside>
+    </section>
+    
+</body>
+</html>
